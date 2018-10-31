@@ -24,7 +24,7 @@ function doLoad() {
 }
 
 /*Contador de Vidas: Jugador 1*/
-var counter1 = 20;
+var counter1 = 100;
 function log1(msg, doAlert) {
        document.getElementById("statusMessages1").innerHTML = msg;
        if (doAlert) {
@@ -43,7 +43,7 @@ function decrementCounter1 () {
 }
 
 /*Contador de Vidas: Jugador 2*/
-var counter2 = 20;
+var counter2 = 100;
 function log2(msg, doAlert) {
        document.getElementById("statusMessages2").innerHTML = msg;
        if (doAlert) {
